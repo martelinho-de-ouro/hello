@@ -1,0 +1,10 @@
+O módulo std::ascii é responsável por operações em strings e chars
+ASCII.
+
+A maioria das operações em rust são em strings UTF-8.
+
+escape_default é uma função que devolve um iterator que produz
+uma versão escapada de um u8.
+
+Escapes de unicode nunca são gerados por essa função.
+
