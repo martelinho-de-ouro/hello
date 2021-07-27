@@ -10,3 +10,11 @@ path = "src/main.rs"
 [[bin]]
 name = "std-ascii"
 path = "src/std/ascii/main.rs"
+
+[[bin]]
+name = "gtk4"
+path = "src/gtk4/main.rs"
+
+[dependencies.gtk]
+version = "0.1"
+package = "gtk4"
